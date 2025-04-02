@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Properties - Survase Real Estate</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #f0a500;
+      }
+
+      main {
+        padding: 2rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #f0a500;
+        text-align: center;
+      }
+
+      .properties {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+
+      .property-card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+
+      .property-card:hover {
+        transform: scale(1.05);
+      }
+
+      .property-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .property-details {
+        padding: 1rem;
+      }
+
+      .property-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .property-description {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        color: #666;
+      }
+
+      .property-price {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #f0a500;
+      }
+
+      footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Survase Real Estate</h1>
+      <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="aboutus.html">About-us</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="testimonials.html">Testimonialss</a></li>
+            <li><a href="service.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 class="section-title">Our Properties</h2>
+        <div class="properties">
+          <!-- Property 1 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/free-photo/delimitation-land-with-clear-sky_23-2149721839.jpg?semt=ais_hybrid"
+              alt="Modern Apartment"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Modern Apartment</h3>
+              <p class="property-description">
+                Spacious 3BHK apartment located in the heart of the city.
+              </p>
+              <p class="property-price">2,000,000</p>
+            </div>
+          </div>
+          <!-- Property 2 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/free-photo/view-land-plot-real-estate-business-development_23-2149916715.jpg?semt=ais_hybrid"
+              alt="Luxury Villa"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Luxury Villa</h3>
+              <p class="property-description">
+                Elegant villa with a private pool and garden.
+              </p>
+              <p class="property-price">1,000,000</p>
+            </div>
+          </div>
+          <!-- Property 3 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/premium-photo/aerial-photos-golf-club-green-lawns-forests-lawn-mowers_89816-2444.jpg?semt=ais_hybrid"
+              alt="Cozy Cottage"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Cozy Cottage</h3>
+              <p class="property-description">
+                A charming 2BHK cottage perfect for families.
+              </p>
+              <p class="property-price">150,000</p>
+            </div>
+          </div>
+          <!-- Property 4 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/free-photo/view-land-plot-real-estate-business-development_23-2149916717.jpg?semt=ais_hybrid"
+              alt="Penthouse Suite"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Penthouse Suite</h3>
+              <p class="property-description">
+                Luxurious penthouse with a breathtaking city view.
+              </p>
+              <p class="property-price">750,000</p>
+            </div>
+          </div>
+          <!-- Property 5 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/premium-photo/aerial-photos-golf-club-green-lawns-forests-lawn-mowers_89816-2444.jpg?semt=ais_hybrid"
+              alt="Beachfront Villa"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Beachfront Villa</h3>
+              <p class="property-description">
+                Stunning villa with direct beach access and a private dock.
+              </p>
+              <p class="property-price">2,500,000</p>
+            </div>
+          </div>
+          <!-- Property 6 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/free-photo/aerial-view-rural-landscape-crops-field_23-2148346099.jpg?semt=ais_hybrid"
+              alt="Country Farmhouse"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Country Farmhouse</h3>
+              <p class="property-description">
+                Rustic farmhouse with acres of lush green land.
+              </p>
+              <p class="property-price">350,000</p>
+            </div>
+          </div>
+          <!-- Property 7 -->
+          <div class="property-card">
+            <img
+              src="https://img.freepik.com/premium-photo/terrace-rice-field-aerial-view-nan-thailand_24165-150.jpg?semt=ais_hybrid"
+              alt="Urban Studio"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Urban Studio</h3>
+              <p class="property-description">
+                Compact studio apartment perfect for city living.
+              </p>
+              <p class="property-price">120,000</p>
+            </div>
+          </div>
+          <!-- Property 8 -->
+          <div class="property-card">
+            <img
+              src="https://media.istockphoto.com/id/1297973947/photo/aerial-view-of-cultivated-land.jpg?s=612x612&w=0&k=20&c=XynqDnvoz5NamcWPrWAxnP-CYpO8hiQPxjpSLp_J2ec="
+              alt="Mountain Cabin"
+              class="property-image"
+            />
+            <div class="property-details">
+              <h3 class="property-title">Mountain Cabin</h3>
+              <p class="property-description">
+                Cozy cabin surrounded by scenic mountain views.
+              </p>
+              <p class="property-price">450,000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 2rem 2rem;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
+          <!-- Address Section -->
+          <div style="flex: 1;">
+            <h3 style="color: #f0a500;">Office Address</h3>
+            <p>
+              Survase Real Estate <br />
+              Nagala Park, Kolhapur, <br />
+              Maharashtra, 416003, India
+            </p>
+          </div>
+    
+          <!-- Contact Details Section -->
+          <div style="flex: 1;">
+            <h3 style="color: #f0a500;">Contact Us</h3>
+            <p><strong>Phone:</strong> +91 123 456 7890</p>
+            <p><strong>Email:</strong> info@survaserealestate.com</p>
+            <p><strong>Office Hours:</strong> Mon - Fri: 9:00 AM - 6:00 PM</p>
+          </div>
+    
+          <!-- Map Section -->
+          <div style="flex: 2;">
+            <h3 style="color: #f0a500;">Find Us Here</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.392555156406!2d74.24387021422979!3d16.705268973146406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdad1e54ae9bb97%3A0x85a03f1f1bb0b58!2sSurvase%20Real%20Estate!5e0!3m2!1sen!2sin!4v1672474340492!5m2!1sen!2sin"
+              width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+    
+        <!-- Social Media Section -->
+        <div style="text-align: center; margin-top: 2rem;">
+          <h3 style="color: #f0a500;">Follow Us</h3>
+          <div style="display: flex; justify-content: center; gap: 1rem;">
+            <a href="https://facebook.com" target="_blank" style="color: #fff; font-size: 1.5rem;">📘</a>
+            <a href="https://twitter.com" target="_blank" style="color: #fff; font-size: 1.5rem;">🐦</a>
+            <a href="https://instagram.com" target="_blank" style="color: #fff; font-size: 1.5rem;">📸</a>
+            <a href="https://linkedin.com" target="_blank" style="color: #fff; font-size: 1.5rem;">🔗</a>
+          </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 1rem;">
+          <p>&copy; 2025 Survase Real Estate. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>

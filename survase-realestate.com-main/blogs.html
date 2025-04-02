@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs - Survase Real Estate</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #f0a500;
+      }
+
+      main {
+        padding: 2rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #f0a500;
+        text-align: center;
+      }
+
+      .blogs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+
+      .blog-card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+
+      .blog-card:hover {
+        transform: scale(1.05);
+      }
+
+      .blog-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .blog-details {
+        padding: 1rem;
+      }
+
+      .blog-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .blog-excerpt {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        color: #666;
+      }
+
+      .read-more {
+        font-size: 0.9rem;
+        color: #f0a500;
+        text-decoration: none;
+      }
+
+      footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Survase Real Estate</h1>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="aboutus.html">About-us</a></li>
+          <li><a href="properties.html">Properties</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="testimonials.html">Testimonialss</a></li>
+          <li><a href="service.html">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 class="section-title">Latest Blogs</h2>
+        <div class="blogs">
+          <!-- Blog 1 -->
+          <div class="blog-card">
+            <img src="https://i.ytimg.com/an_webp/nT4XNJ9VJS0/mqdefault_6s.webp?du=3000&sqp=CMCn7rsG&rs=AOn4CLAPzbYUWYP7ZeihX_qQ03R_nxi_rw" alt="Blog 1 Title" class="blog-image" />
+            <div class="blog-details">
+              <h3 class="blog-title">How to Choose the Right Property</h3>
+              <p class="blog-excerpt">
+                Finding the perfect property can be challenging. Here are some key tips on how to choose a property that fits your needs and budget...
+              </p>
+              <a href="blog1.html" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Blog 2 -->
+          <div class="blog-card">
+            <img src="https://i.ytimg.com/an_webp/gXmVbqPEVLQ/mqdefault_6s.webp?du=3000&sqp=CITC7rsG&rs=AOn4CLB0P7ryy1f9-d9iuP3oPoofi0_XUQ" alt="Blog 2 Title" class="blog-image" />
+            <div class="blog-details">
+              <h3 class="blog-title">5 Benefits of Investing in Real Estate</h3>
+              <p class="blog-excerpt">
+                Real estate investment offers numerous benefits. Learn how investing in property can secure your financial future and provide long-term gains...
+              </p>
+              <a href="blog2.html" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Blog 3 -->
+          <div class="blog-card">
+            <img src="https://i.ytimg.com/an_webp/k7bAt65R0c0/mqdefault_6s.webp?du=3000&sqp=CLSv7rsG&rs=AOn4CLD4wGs6Uf6_WzJ-sjhtl5cOGBAH3A" alt="Blog 3 Title" class="blog-image" />
+            <div class="blog-details">
+              <h3 class="blog-title">Understanding Real Estate Market Trends</h3>
+              <p class="blog-excerpt">
+                Keeping track of market trends is crucial when buying or selling a property. Here's how to understand the market shifts and make informed decisions...
+              </p>
+              <a href="blog3.html" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Blog 4 -->
+          <div class="blog-card">
+            <img src="https://i.ytimg.com/vi/2y6kWY-N-Sk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAB44wamD8dM1swYYKgKZcWZcBtpQ" alt="Blog 4 Title" class="blog-image" />
+            <div class="blog-details">
+              <h3 class="blog-title">Tips for First-Time Home Buyers</h3>
+              <p class="blog-excerpt">
+                If you're a first-time homebuyer, the process can feel overwhelming. Here are some essential tips to help you navigate the journey with confidence...
+              </p>
+              <a href="blog4.html" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div style="background-color: rgba(0, 0, 0, 0.8); color: #fff; padding: 2rem 2rem;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
+          <!-- Address Section -->
+          <div style="flex: 1;">
+            <h3 style="color: #f0a500;">Office Address</h3>
+            <p>
+              Survase Real Estate <br />
+              Nagala Park, Kolhapur, <br />
+              Maharashtra, 416003, India
+            </p>
+          </div>
+    
+          <!-- Contact Details Section -->
+          <div style="flex: 1;">
+            <h3 style="color: #f0a500;">Contact Us</h3>
+            <p><strong>Phone:</strong> +91 123 456 7890</p>
+            <p><strong>Email:</strong> info@survaserealestate.com</p>
+            <p><strong>Office Hours:</strong> Mon - Fri: 9:00 AM - 6:00 PM</p>
+          </div>
+    
+          <!-- Map Section -->
+          <div style="flex: 2;">
+            <h3 style="color: #f0a500;">Find Us Here</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.392555156406!2d74.24387021422979!3d16.705268973146406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdad1e54ae9bb97%3A0x85a03f1f1bb0b58!2sSurvase%20Real%20Estate!5e0!3m2!1sen!2sin!4v1672474340492!5m2!1sen!2sin"
+              width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+    
+        <!-- Social Media Section -->
+        <div style="text-align: center; margin-top: 2rem;">
+          <h3 style="color: #f0a500;">Follow Us</h3>
+          <div style="display: flex; justify-content: center; gap: 1rem;">
+            <a href="https://facebook.com" target="_blank" style="color: #fff; font-size: 1.5rem;">📘</a>
+            <a href="https://twitter.com" target="_blank" style="color: #fff; font-size: 1.5rem;">🐦</a>
+            <a href="https://instagram.com" target="_blank" style="color: #fff; font-size: 1.5rem;">📸</a>
+            <a href="https://linkedin.com" target="_blank" style="color: #fff; font-size: 1.5rem;">🔗</a>
+          </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 1rem;">
+          <p>&copy; 2025 Survase Real Estate. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>

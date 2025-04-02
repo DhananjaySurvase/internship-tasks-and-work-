@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survase Real Estate Website</title>
+    <link rel="stylesheet" type="text/css" href="/Users/dhananjay/Desktop/project1.css">
+  </head>
+  <body background="https://d3p0bla3numw14.cloudfront.net/news-content/img/2021/11/22143648/Bisnis-Real-Estate.jpg">    
+  
+    <header>
+      <h1>Survase Real Estate</h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.vishwakarmabuilders.com/index.html">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" style="background-color: black;color: white;">
+        <h2>Welcome to Survase<br> Real Estate</h2>
+        <p>Find your dream home with us</p>
+      </section>
+      
+      <!-- About Us Section -->
+      <section id="about-us" style="padding: 3rem 2rem; background-color: #f0f0f0;">
+        <h2>About Us</h2>
+        <p>At Survase Real Estate, we provide a diverse range of properties that cater to the needs of every individual. Whether you're looking for your dream home or a lucrative investment opportunity, we are here to assist you in every step of the journey. Our team is dedicated to offering exceptional service with a personal touch, ensuring that you find the perfect property.</p>
+      </section>
+      
+      <!-- Properties Section -->
+      <section id="properties" class="properties">
+        <h2 style="color:floralwhite;">Properties</h2>
+        <ul>
+          <li>
+            <img src="https://www.vishwakarmabuilders.com/h3.png" alt="Property 1" width="350" height="360"> 
+            <h2 style="color:white;"> 7TH HEAVEN</h2>
+            <p><h4 style="color:whitesmoke;"> 📍Balkawade Nagar, Rajas Society, Katraj - Bibvewadi, Pune </h4><br>
+            <h5 style="color:ghostwhite;">
+              . 3 BHK Flats,4bhk-5bhk penthouse<br>
+              . Lift with Backup<br>
+              . Solar water heating system<br>
+              . Rain water harvesting system<br>
+              . CCTV security<br>
+              . Ample parking space </h5></p><br>
+            <a href="https://www.vishwakarmabuilders.com/7thheaven.html" style="color:navajowhite;">View Details</a>
+          </li>
+          <!-- Add other properties similarly -->
+        </ul>
+      </section>
+      
+      <!-- Contact Us Section -->
+      <section id="contact-us" style="padding: 3rem 2rem; background-color: #f9f9f9;">
+        <h2>Contact Us</h2>
+        <p>For more information or inquiries, feel free to reach out to us. Our team is happy to assist you!</p>
+        <form action="#">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+          
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+
+      <!-- Blogs Section -->
+      <section id="blogs" style="padding: 3rem 2rem; background-color: #fff;">
+        <h2>Our Blogs</h2>
+        <p>Stay updated with the latest trends, tips, and insights about the real estate market and more. Explore our blog for the most recent posts.</p>
+        <ul>
+          <li><a href="#">Blog Post 1: Tips for First-time Homebuyers</a></li>
+          <li><a href="#">Blog Post 2: Understanding the Real Estate Market in Pune</a></li>
+          <li><a href="#">Blog Post 3: How to Choose the Right Property Investment</a></li>
+        </ul>
+      </section>
+      
+      <!-- Testimonials Section -->
+      <section id="testimonials" style="padding: 3rem 2rem; background-color: #e0e0e0;">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+          <p>"Survase Real Estate helped us find our dream home in no time. Their team was professional, attentive, and always available to assist us. Highly recommend!"</p>
+          <p>- Ayesha & Raj</p>
+        </div>
+        <div class="testimonial">
+          <p>"Great experience! The entire process was smooth, and we are very happy with our new property. Thanks to the team at Survase Real Estate."</p>
+          <p>- Vijay & Priya</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Survase Real Estate</p>
+    </footer>
+
+    <style>
+      /* Additional styles */
+      section {
+        margin-bottom: 2rem;
+        border-radius: 8px;
+      }
+      
+      section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+      
+      section p {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #666;
+      }
+      
+      form input, form textarea {
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      form input[type="submit"] {
+        background-color: #f0a500;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      form input[type="submit"]:hover {
+        background-color: #f7b500;
+      }
+
+      .testimonial {
+        background-color: #fff;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+
+  </body>
+</html>

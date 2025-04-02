@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Urban Habitat Properties</title>
+    <link rel="stylesheet" type="text/css" href="/Users/dhananjay/Desktop/urban-habitat.css">
+  </head>
+  <body background="https://example.com/new-background.jpg">    
+    
+    <header>
+      <h1>Urban Habitat Properties</h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.example.com/home">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#properties">Our Properties</a></li>
+          <li><a href="#contact-us">Contact</a></li>
+          <li><a href="#news">Latest News</a></li>
+          <li><a href="#reviews">Customer Reviews</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Introduction Section -->
+      <section class="intro" style="background-color: #2b2b2b;color: white;">
+        <h2>Welcome to Urban Habitat</h2>
+        <p>Your new home awaits with the finest properties.</p>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about-us" style="padding: 4rem 3rem; background-color: #e2e2e2;">
+        <h2>About Urban Habitat</h2>
+        <p>Urban Habitat is dedicated to providing modern homes in prime locations. Our properties are tailored to offer comfort, convenience, and long-term value, whether you're a first-time buyer or seasoned investor.</p>
+      </section>
+
+      <!-- Featured Properties Section -->
+      <section id="properties">
+        <h2 style="text-align:center; color: #0f0f0f;">Featured Properties</h2>
+        <div class="property-list">
+          <div class="property-item">
+            <img src="https://example.com/property1.jpg" alt="Property 1" width="350" height="350">
+            <h3>Luxury Heights</h3>
+            <p class="location">📍 Downtown, City Center, Metro City</p>
+            <p class="details">3 BHK Apartments | Spacious Layout | 24/7 Security | Swimming Pool</p>
+            <a href="https://example.com/luxury-heights" class="details-link">View Details</a>
+          </div>
+          <div class="property-item">
+            <img src="https://example.com/property2.jpg" alt="Property 2" width="350" height="350">
+            <h3>The Park Residences</h3>
+            <p class="location">📍 Green Valley, Parkside Road, Eco City</p>
+            <p class="details">2 BHK, 3 BHK Flats | Eco-friendly Amenities | Gym & Recreation</p>
+            <a href="https://example.com/park-residences" class="details-link">View Details</a>
+          </div>
+          <div class="property-item">
+            <img src="https://example.com/property3.jpg" alt="Property 3" width="350" height="350">
+            <h3>Skyline Towers</h3>
+            <p class="location">📍 Horizon Road, Midtown</p>
+            <p class="details">4 BHK Flats | Modern Architecture | Panoramic Views</p>
+            <a href="https://example.com/skyline-towers" class="details-link">View Details</a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Contact Us Section -->
+      <section id="contact-us" style="padding: 4rem 3rem; background-color: #f9f9f9;">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out for more details or inquiries about our properties. Our team is here to assist you!</p>
+        <form action="#">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+          
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          
+          <input type="submit" value="Send Message">
+        </form>
+      </section>
+
+      <!-- News Section -->
+      <section id="news" style="padding: 4rem 3rem; background-color: #fff;">
+        <h2>Latest News</h2>
+        <p>Stay updated with the latest trends in the real estate market and new launches from Urban Habitat.</p>
+        <ul>
+          <li><a href="#">New Property Launch: Skyline Towers</a></li>
+          <li><a href="#">Eco-Friendly Living: Sustainable Homes at The Park Residences</a></li>
+          <li><a href="#">How to Invest in Luxury Real Estate</a></li>
+        </ul>
+      </section>
+      
+      <!-- Customer Reviews Section -->
+      <section id="reviews" style="padding: 4rem 3rem; background-color: #e3e3e3;">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+          <p>"Urban Habitat made our home-buying journey so smooth. The team was friendly and helped us find the perfect place in no time!"</p>
+          <p>- Sarah & John</p>
+        </div>
+        <div class="review">
+          <p>"We couldn't be happier with our new property. Urban Habitat has been excellent throughout the process. Highly recommend!"</p>
+          <p>- Emma & David</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Urban Habitat Properties</p>
+    </footer>
+
+    <style>
+      /* General Styles */
+      body {
+        font-family: 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #333;
+      }
+
+      /* Box-sizing reset */
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Header Styles */
+      header {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        margin-left: 2rem;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #f0a500;
+      }
+
+      /* Introduction Section */
+      .intro {
+        text-align: center;
+        padding: 5rem 2rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+      }
+
+      .intro h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .intro p {
+        font-size: 1.5rem;
+      }
+
+      /* Properties Section */
+      .property-list {
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+
+      .property-item {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: 30%;
+      }
+
+      .property-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      .property-item h3 {
+        font-size: 1.8rem;
+      }
+
+      .property-item p {
+        font-size: 1rem;
+      }
+
+      .details-link {
+        color: #f0a500;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 1rem;
+        transition: color 0.3s ease;
+      }
+
+      .details-link:hover {
+        color: white;
+      }
+
+      /* Contact Us Section */
+      #contact-us form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      #contact-us form input, #contact-us form textarea {
+        padding: 0.8rem;
+        margin: 0.8rem 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      #contact-us form input[type="submit"] {
+        background-color: #f0a500;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      #contact-us form input[type="submit"]:hover {
+        background-color: #f7b500;
+      }
+
+      /* Footer Styles */
+      footer {
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+      }
+    </style>
+  </body>
+</html>
